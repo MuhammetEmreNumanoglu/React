@@ -1,0 +1,8 @@
+.courses {
+    display: flex;
+    column-gap: 15px;
+}
+.cours {
+    border: 1px solid rgb(41, 215, 154);
+    border-radius: 30px 30px 10px 10px;
+}

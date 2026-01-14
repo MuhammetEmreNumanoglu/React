@@ -1,0 +1,81 @@
+.App {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.todo-create {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px 1px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  box-shadow: 1px 2px 4px 3px gray;
+}
+.todo-create-button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px 20px 10px 20px;
+  box-shadow: 3px 3px #0099dd;
+  background-color: #a1c7e0;
+  color: black;
+  transition: 0.4s all ease;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.todo-create-button:hover {
+  background-color: #026e81;
+  color: wheat;
+  box-shadow: 3px 3px #00abbd;
+}
+.todo-icons {
+  font-size: 30px;
+}
+.main {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo-delete-icon {
+  transition: 0.3s all ease;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.todo-delete-icon:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 2px 2px rgb(42, 15, 15);
+  transform: scale(1.2);
+}
+
+.todo-edit-icon {
+  transition: 0.3s all ease;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.todo-edit-icon:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 2px 2px rgb(42, 15, 15);
+  transform: scale(1.1);
+}

@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(86, 128, 86);
+}
+.title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 28px;
+  color: antiquewhite;
+  padding: 30px;
+}
+.courses {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+}
+.course {
+  background-color: bisque;
+  width: 20%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 5px 30px 30px 6px;
+  box-shadow: 2px 2px orange;
+}
+.price {
+  padding-top: 5px;
+  width: auto;
+  height: 25px;
+  border-radius: 50px;
+  background-color: brown;
+  transition: all ease 1s;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.price a {
+  color: bisque;
+  text-decoration: none;
+}
+.price:hover {
+  background-color: rgb(255, 255, 255);
+}
+.price:hover a {
+  color: rgb(0, 0, 0);
+}
+
+.fiyat{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

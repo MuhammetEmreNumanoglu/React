@@ -1,0 +1,11 @@
+.todo-create{
+width: 500px;
+display: flex;
+border: 1px solid rgb(52, 48, 39);
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.todo-create-text {
+    border: 1px solid rgb(55, 51, 44);
+}
