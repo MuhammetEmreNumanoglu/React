@@ -1,0 +1,18 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  margin: 20px;
+}
+.Header a {
+  background-color: rgb(163, 25, 232);
+  color: blanchedalmond;
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px 35px 5px 35px;
+  padding: 12px;
+}
+.Header a:hover {
+  background-color: rgb(13, 58, 28);
+  color: rgb(150, 150, 43);
+}
